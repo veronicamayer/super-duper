@@ -25,33 +25,26 @@ font-family: Gilda;
 header {
     background-color: #333333;
     color: white;
-    height: 100vh;
+    display: flex;
+    justify-content: space-between;
 }
 
-h1 {
+.super {
     width: 10vw;
     font-family: MavenPro;
     font-size: 1.2rem;
     letter-spacing: 0.3rem;
-    padding: 1vh 0 0 3vw;
-}
-
-/*Die section dient nur zum Zentrieren des articles*/
-.sectionTopCenter {
-    text-align: center;
-    height: 0;
+    margin: 1vh 0 0 3vw;
 }
 
 .articleTopCenter {
-    background: rgb(61,200,213);
     background: linear-gradient(225deg, rgba(61,200,213,1) 0%, rgba(25,72,148,1) 50%, rgba(133,7,225,1) 100%);
-    display: inline-block;
-    margin: 20vh auto;
+    margin: 35.5vh auto;
     padding: 2vw;
+    align-self: center;
 }
 
 .articleTopCenter:hover {
-    background: rgb(61,200,213);
     background: linear-gradient(45deg, rgba(61,200,213,1) 0%, rgba(25,72,148,1) 50%, rgba(133,7,225,1) 100%);    
 }
 
@@ -68,8 +61,8 @@ h1 {
 
 nav {
     text-align: right;
-    width: 25vw;
-    margin: 75vh 0 1vh 72vw;
+    align-self: flex-end;
+    padding: 0 3vw 3vh 0;
 }
 
 a {
@@ -106,7 +99,7 @@ h2 {
 /*--photos--*/
 
 .sectionPhotos {
-    width: 60vw;
+    width: 80vw;
     margin: 0 auto;
 }
 
@@ -121,7 +114,7 @@ h3 {
 }
 
 article {
-    padding: 10vw 0 5vw 0;
+    padding: 5vw 0 5vw 0;
 }
 
 p {
